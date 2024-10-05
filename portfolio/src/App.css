@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  --background: #e2e2e2;
+  --primary-color: #153aac;
+  --secondary-color: #f3890b;
+  --arrow-down: " \25BC";
+  --arrow-up: " \25B2";
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden {
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.title {
+  font-size: 8ch;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.bold-primary {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.bold-secondary {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.svg {
+  width: 70%;
+  aspect-ratio: 1 / 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 7ch;
+  }
+}

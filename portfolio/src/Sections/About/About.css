@@ -1,0 +1,30 @@
+.about-layout {
+    display: grid;
+    width: 96%;
+    height: 80vmin;
+    margin: 5vmin 2vmax 0 2vmax;
+    grid: auto / 50% 50%;
+}
+
+.about-content {
+    width: 100%;
+    height: 95%;
+}
+
+.about-info {
+    font-size: 2.5ch;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-content {
+        width: 98%;
+        margin: 5vmin 0 0 2vmax;
+    }
+
+    .about-layout {
+        width: 90%;
+        margin: 0;
+        grid: auto / auto;
+    }
+}
+   

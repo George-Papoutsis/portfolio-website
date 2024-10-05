@@ -1,0 +1,74 @@
+.experience-layout {
+    width: 96%;
+    height: 80vmin;
+    margin: 5vmin 2vmax 0 2vmax;
+}
+
+.experiences {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.experience-title {
+    font-size: 2.5ch;
+    display: flex;
+    font-weight: bold;
+}
+
+.experience-company {
+    color: var(--secondary-color);
+}
+
+.experience-extra {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2ch;
+    color: var(--primary-color);
+}
+
+.experience-date, .experience-location {
+    display: flex;
+    align-items: center;
+}
+
+.experience-location {
+    margin-left: 1rem;
+}
+
+.experience-svg {
+    width: 3rem;
+    aspect-ratio: 1 / 1;
+}
+.experience-points {
+    margin-top: 1rem;
+    list-style-position: inside;
+}
+
+.experience-points li{
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .experience-title {
+        flex-direction: column;
+        font-size: 2ch;
+    }
+
+    .experience-extra {
+        flex-direction: column;
+        align-items: start;
+        font-size: 1.5ch;
+        font-weight: bold;
+    }
+
+    .experience-location {
+        margin: 0;
+    }
+
+    .experience-points {
+        width: 90%;
+    }
+}
