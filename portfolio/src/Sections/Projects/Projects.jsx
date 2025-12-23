@@ -3,7 +3,7 @@ import "./Projects.css";
 import Project from "../../components/Project/Project";
 import barChart from "../../svg/bar-chart.svg";
 import squares from "../../svg/2048.svg";
-import calculator from "../../svg/calculator.svg";
+import AI from "../../svg/ai.svg";
 
 export default function Projects({section}) {
     if (section === "projects")
@@ -11,6 +11,14 @@ export default function Projects({section}) {
             <div className="projects-layout">
                 <div className="title">Projects</div>
                 <div className="projects-content">
+                    <Project title="A Machine Learning Based Video Player for Streaming Applications (Current)" icon={AI}
+                        gitHubLink="https://github.com/7figs/SYSC-4907">
+                        <ul className="project-points">
+                            <li>Working on a team of 4 students, supervised by Professor Changcheng Huang for <span className="bold-secondary">4th year Engineering Capstone Project.</span></li>
+                            <li>Applying knowledge learned inside and outside the classroom to create a video streaming application with a machine learning recommendation system.</li>
+                            <li>Actively demonstrating team management, and leadership skills by keeping my team on track, and meeting all of our deadlines.</li>
+                        </ul>
+                    </Project>
                     <Project title="Sorting algorithm visualizer" icon={barChart}
                         webLink="https://algorithm-visualizer-georgepapoutsis.vercel.app/"
                         gitHubLink="https://github.com/George-Papoutsis/Algorithm-Visualizer">
@@ -27,14 +35,6 @@ export default function Projects({section}) {
                             <li>Applied Knowledge of <span className="bold-secondary">HTML, JavaScript, and Sass</span> to develop a fully responsive recreation of the video game
                             2048</li>
                             <li>Demonstrated knowledge of <span className="bold-secondary">JavaScript Event Listeners,</span> and <span className="bold-secondary">DOM Manipulation</span></li>
-                        </ul>
-                    </Project>
-                    <Project title="JavaScript Calculator" icon={calculator}
-                        webLink="https://simple-calculator-georgepapoutsis.vercel.app/"
-                        gitHubLink="https://github.com/George-Papoutsis/calculator">
-                        <ul className="project-points">
-                            <li>Developed a fully <span className="bold-secondary">responsive website</span> resulting in the calculator being easy to use on any screen size
-                            </li>
                         </ul>
                     </Project>
                 </div>

@@ -16,6 +16,7 @@ import node from "../../images/node.png";
 import azuredevops from "../../images/azuredevops.png";
 import bootstrap from "../../images/bootstrap.png";
 import SkillSection from "../../components/SkillSection/SkillSection";
+import cpp from "../../images/cpp.png";
 
 export default function Skills({section}) {
     if (section === "skills") {
@@ -59,6 +60,10 @@ export default function Skills({section}) {
                             <div className="skill">
                                 <img className="skill-image" src={sql} alt="sql" />
                                 <div className="skill-description">SQL</div>
+                            </div>
+                            <div className="skill">
+                                <img className="skill-image" src={cpp} alt="c++" />
+                                <div className="skill-description">C++</div>
                             </div>
                     </SkillSection>
                     <div className="skills-section-half">
@@ -118,6 +123,27 @@ export default function Skills({section}) {
                         </div>
                         <div className="skill skill-no-image">
                             <div className="skill-description">Linux</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">UML</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Embedded Programming</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Asynchronous Programming</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Computer Communications</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Computer Networks</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Network and Software Security</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">AI/ML</div>
                         </div>
                     </SkillSection>
                 </div>

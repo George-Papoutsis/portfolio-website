@@ -34,6 +34,30 @@ export default function Experience({section}) {
                         </div>
                     </div>
                     <hr />
+                    <div className="experience-content">
+                        <div className="experience-title">
+                            <span className="experience-job">Undergraduate Teaching Assistant&nbsp;</span>
+                            <span className="experience-company">| Carleton University</span>
+                        </div>
+                        <div className="experience-extra">
+                            <span className="experience-date">
+                                <img className="experience-svg" src={calendar} />
+                                September 2025 - December 2025
+                            </span>
+                            <span className="experience-location">
+                                <img className="experience-svg" src={location} />
+                                Ottawa, On, Canada
+                            </span>
+                        </div>
+                        <div className="experience-points">
+                            <ul>
+                                <li>Assisted in <span className="bold-primary">labs</span> where students learned fundamental programming concepts in <span className="bold-primary">Python</span></li>
+                                <li><span className="bold-primary">Marked labs</span>, and assessed quality of students' work</li>
+                                <li><span className="bold-primary">Proctored</span> a Final Exam to ensure that all students followed correct exam procedures </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr />
                 </div>
             </div>
         );

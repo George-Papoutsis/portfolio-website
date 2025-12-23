@@ -10,7 +10,7 @@ export default function Project({title, icon, webLink, gitHubLink, children}) {
                 <img className="project-icon" src={icon} />
                 <div className="project-title">{title} | </div>
                 <div className="project-links">
-                    <a href={webLink} target="_blank"><img className="project-icon" src={globe} alt="web link" /></a>
+                    {webLink && <a href={webLink} target="_blank"><img className="project-icon" src={globe} alt="web link" /></a>}
                     <a href={gitHubLink} target="_blank"><img className="project-icon" src={gitHub} alt="github link" /></a>
                 </div>
             </div>
