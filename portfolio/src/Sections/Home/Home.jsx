@@ -13,9 +13,9 @@ export default function Home({section}) {
                 <div className="home-content">
                     <div className="greeting">Hi, My name is</div>
                     <div className="home-name">George Papoutsis</div>
-                    <div className="occupation">Computer Systems Engineering Student</div>
-                    <div className="bio">I am a fourth year Computer Systems Engineering student at Carleton
-                        University. I have 7 years of programming experience and enjoy
+                    <div className="occupation">M.ASc Electrical and Computer Engineering Student</div>
+                    <div className="bio">I am a Master's student at Carleton
+                        University studying Electrical and Computer Engineering. I have 7 years of programming experience and enjoy
                         solving problems, and taking on new challenges.</div>
                     <div className="button-group">
                         <a href="https://www.linkedin.com/in/george-papoutsis-481674276/" target="_blank" className="connect-button">

@@ -1,24 +1,24 @@
 import React from "react";
-import "./Experience.css"
+import "../Experience/Experience.css"
 import calendar from "../../svg/calendar.svg";
 import location from "../../svg/location.svg";
 
-export default function Experience({section}) {
-    if (section === "experience") {
+export default function Education({section}) {
+    if (section === "education") {
         return (
             <div className="experience-layout">
-                <div className="title">Experience</div>
-                <div className="experiences">
+                <div className="title">Education</div>
+                <div className="experience">
                     <hr />
                     <div className="experience-content">
                         <div className="experience-title">
-                            <span className="experience-job">Undergraduate Teaching Assistant&nbsp;</span>
+                            <span className="experience-job">M.ASc Electrical and Computer Engineering&nbsp;</span>
                             <span className="experience-company">| Carleton University</span>
                         </div>
                         <div className="experience-extra">
                             <span className="experience-date">
                                 <img className="experience-svg" src={calendar} />
-                                September 2025 - December 2025
+                                Starting September 2026
                             </span>
                             <span className="experience-location">
                                 <img className="experience-svg" src={location} />
@@ -27,22 +27,22 @@ export default function Experience({section}) {
                         </div>
                         <div className="experience-points">
                             <ul>
-                                <li>Assisted in <span className="bold-primary">labs</span> where students learned fundamental programming concepts in <span className="bold-primary">Python</span></li>
-                                <li><span className="bold-primary">Marked labs</span>, and assessed quality of students' work</li>
-                                <li><span className="bold-primary">Proctored</span> a Final Exam to ensure that all students followed correct exam procedures </li>
+                                <li>Awarded a <span className="bold-primary">Research Assistant</span> position focusing on the <span className="bold-primary">coexistence between Wi-Fi, and Radar</span></li>
+                                <li>Awarded a <span className="bold-primary">Teaching Assistant</span> position </li>
+                                <li>Awarded <span className="bold-primary">entrance scholarship</span></li>
                             </ul>
                         </div>
                     </div>
                     <hr />
                     <div className="experience-content">
                         <div className="experience-title">
-                            <span className="experience-job">Junior Full Stack Web Developer&nbsp;</span>
-                            <span className="experience-company">| Immigration, Refugees, Citizenship Canada</span>
+                            <span className="experience-job">B.Eng Computer Systems Engineering&nbsp;</span>
+                            <span className="experience-company">| Carleton University</span>
                         </div>
                         <div className="experience-extra">
                             <span className="experience-date">
                                 <img className="experience-svg" src={calendar} />
-                                January 2024 - December 2024
+                                September 2021 - May 2026
                             </span>
                             <span className="experience-location">
                                 <img className="experience-svg" src={location} />
@@ -51,9 +51,9 @@ export default function Experience({section}) {
                         </div>
                         <div className="experience-points">
                             <ul>
-                                <li>Worked in an <span className="bold-primary">agile development</span> team using <span className="bold-primary">HTML, CSS, JavaScript, SQL, C Sharp, and Vue JS</span></li>
-                                <li>Applied <span className="bold-primary">problem solving skills</span> to fix bugs in all parts of the codebase</li>
-                                <li>Created and updated <span className="bold-primary">API Endpoints</span> to communicate with the application's <span className="bold-primary">database</span></li>
+                                <li>CGPA: <span className="bold-primary">10.73/12</span></li>
+                                <li>Part of the <span className="bold-primary">Accelerated Pathway Program</span> which allows students to take graduate level courses in the undergraduate degree</li>
+                                <li>Made the <span className="bold-primary">Dean's Honour List</span> Multiple years in the program</li>
                             </ul>
                         </div>
                     </div>

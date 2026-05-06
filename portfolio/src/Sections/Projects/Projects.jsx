@@ -11,12 +11,12 @@ export default function Projects({section}) {
             <div className="projects-layout">
                 <div className="title">Projects</div>
                 <div className="projects-content">
-                    <Project title="A Machine Learning Based Video Player for Streaming Applications (Current)" icon={AI}
+                    <Project title="A Machine Learning Based Video Player for Streaming Applications" icon={AI}
                         gitHubLink="https://github.com/7figs/SYSC-4907">
                         <ul className="project-points">
-                            <li>Working on a team of 4 students, supervised by Professor Changcheng Huang for <span className="bold-secondary">4th year Engineering Capstone Project.</span></li>
-                            <li>Applying knowledge learned inside and outside the classroom to create a video streaming application with a machine learning recommendation system.</li>
-                            <li>Actively demonstrating team management, and leadership skills by keeping my team on track, and meeting all of our deadlines.</li>
+                            <li>Worked on a team of 4 students, supervised by Professor Changcheng Huang for <span className="bold-secondary">4th year Engineering Capstone Project.</span></li>
+                            <li>Applied knowledge learned inside and outside the classroom to create a video streaming application with a machine learning recommendation system.</li>
+                            <li>Actively demonstrated team management, and leadership skills by ensuring my team stayed on track, and met all of our deadlines.</li>
                         </ul>
                     </Project>
                     <Project title="Sorting algorithm visualizer" icon={barChart}

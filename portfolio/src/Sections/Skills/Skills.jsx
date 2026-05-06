@@ -145,6 +145,21 @@ export default function Skills({section}) {
                         <div className="skill skill-no-image">
                             <div className="skill-description">AI/ML</div>
                         </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Wireless Communications</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">5G Networks</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">TCP</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">UDP</div>
+                        </div>
+                        <div className="skill skill-no-image">
+                            <div className="skill-description">Communication Software</div>
+                        </div>
                     </SkillSection>
                 </div>
             </div>

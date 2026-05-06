@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./Sections/Home/Home";
 import About from "./Sections/About/About";
+import Education from "./Sections/Education/Education";
 import Skills from "./Sections/Skills/Skills";
 import Experience from "./Sections/Experience/Experience";
 import Projects from "./Sections/Projects/Projects";
@@ -14,6 +15,7 @@ function App() {
       <NavBar section={section} updateSection={setSection}></NavBar>
       <Home section={section}></Home>
       <About section={section}></About>
+      <Education section={section}></Education>
       <Skills section={section}></Skills>
       <Experience section={section}></Experience>
       <Projects section={section}></Projects>

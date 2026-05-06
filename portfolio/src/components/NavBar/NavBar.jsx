@@ -31,6 +31,10 @@ export default function NavBar({section, updateSection}) {
                         onClick={() => updateSection("about")}>
                         About
                     </span>
+                    <span className= {section === "education" ? "option selected" : "option"}
+                        onClick={() => updateSection("education")}>
+                        Education
+                    </span>
                     <span className= {section === "skills" ? "option selected" : "option"}
                         onClick={() => updateSection("skills")}>
                         Skills

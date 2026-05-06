@@ -9,18 +9,16 @@ export default function About({section}) {
                 <div className="about-content">
                     <div className="title">About</div>
                     <div className="about-info">
-                        I am a fourth year Computer Systems Engineering student at <span className="bold-primary">Carleton University.&nbsp;</span>
-                        As an aspiring Computer Systems Engineer with <span className="bold-primary">7 years of programming experience,&nbsp;</span> 
-                        I excel with solving problems, and taking on new challenges. 
-                        I have worked with various programming languages such as
-                        <span className="bold-secondary">&nbsp;Python, Java, JavaScript, C, and C++.&nbsp;</span> Throughout my past 4 years at Carleton University, I have had
-                        the opportunity to learn and work with many Computer Engineering concepts including but not limited to <span className="bold-primary">Object-Oriented Programming, 
-                        Data Structures, Algorithms, Computer Architecture, Computer Communications, and Network/ Software Security.</span> Some of the more ambitious projects I have worked on include, my 4th year Engineering Capstone
-                        Project titled "A Machine Learning Based Video Player for Streaming Applications", and a sorting algorithm visualizer using <span className="bold-secondary">HTML, CSS and JavaScript.&nbsp;</span> I have also experienced 
-                        great success in my academic journey thus far. I have made the Dean's Honour List multiple years during the program, and I have been accepted in to the Accelerated Pathway Program which allows undergraduate students 
-                        to take graduate level classes as part of the undergraduate degree.
-                        <br /><br />I am a results-oriented self-starter with strong interpersonal skills who enjoys 
-                        a challenging environment.
+                        I am a Master's student at <span className="bold-secondary">Carleton University</span> studying <span className="bold-secondary">Electrical and Computer Engineering.</span> 
+                        <br />
+                        As an aspiring Engineering Researcher with <span className="bold-secondary">7 years of programming experience,</span> I excel with solving problems, and taking on new challenges. 
+                        During my undergraduate degree at Carleton University, I had the opportunity to learn and work with many Computer Engineering concepts including but not limited to Object-Oriented Programming, 
+                        Data Structures, Algorithms, Computer Architecture, Computer Communications, and Network/ Software Security. 
+                        Additionally, I have worked with various programming languages such as Python, Java, JavaScript, C, and C++.
+                        <br/>
+                        <br/>
+                        Recently, my interests are in the field of <span className="bold-secondary">communications</span> where I have taken many elective courses in fundamental communication concepts such as <span className="bold-secondary">Wireless Communications, 
+                        Communication Software, and 5G Networks.</span> This has led me to pursue a Masters of Applied Science in Electrical and Computer Engineering with research focusing on the <span className="bold-secondary">coexistence between Wi-Fi, and radar.</span>
                     </div>
                 </div>
                 <Profile></Profile>
